@@ -17,7 +17,7 @@
   h1 {
     font-size: 18px;
     text-decoration: none;
-    
+
   }
 
   h4 {
@@ -130,21 +130,37 @@ body{
 }
 
 #instagram {
-  background-color: white;
   font-family: 'Space Mono', Courier, monospace;
-  border-radius: 5px;
-  border: 1px solid white;
   margin: auto;
   padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.insta-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 #instagram img{
- padding: 0px;
- height: 32%;
- width: 32%;
-
+  width: 95%;
+  margin: 5px;
 }
+
+.item{
+  width: 30%;
+}
+
+
+.table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: auto;
+}
+
+
 .link{ 
   background-color: white;
   border-radius: 15px;
@@ -238,10 +254,19 @@ body{
   }
 
   @media only screen and (max-width: 480px) {
-    #home, #datascience, #webapp, #education, .contact, #posts, #creative {
-      width: 100%
+    #home, #datascience, #webapp, #education, .contact {
+      width: 100% !important;
     }
     .navigation {
+      width: 100%;
+      float: none;
+      padding: 8px auto;
+      display: inline-block;
+    }
+    #posts {
+      width: 100% !important;
+    }
+    .item {
       width: 100%;
     }
   }

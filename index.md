@@ -21,7 +21,7 @@
 		</header>
 	    <h1 id='home'>Personal Portfolio</h1>
         <section class='section1'>
-            <div style='float: left; text-align: left;' class="contact home"> 
+            <div style='float: left; text-align: left; width: 75%;' class="contact home"> 
                 <h1>Hannah Falshaw</h1>
                 <h2>About Me</h2>
                 <div class='profile'>
