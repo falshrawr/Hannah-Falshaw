@@ -16,6 +16,8 @@
 
   h1 {
     font-size: 18px;
+    text-decoration: none;
+    
   }
 
   h4 {
@@ -233,5 +235,14 @@ body{
 
   #contactpage{
     margin-top: 20px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    #home, #datascience, #webapp, #education, .contact, #posts, #creative {
+      width: 100%
+    }
+    .navigation {
+      width: 100%;
+    }
   }
 
