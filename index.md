@@ -21,7 +21,6 @@
 			</nav>	
 		</header>
 	    <main>
-
         <section class='section1'>
             <h1 id='home'>Personal Porfolio</h1>
             <div style='float: left; text-align: left;' class="contact home"> 
@@ -40,7 +39,6 @@
                <li>HTML, CSS, JavaScript</li>
                <li>Machine Learning, Sci-Kit, SKLearn, AI</li>
                <li>Natural Language Processing, Sentiment Classification</li>
-
             </div>
             <div id="datascience">
                 <h3>Data Science Projects</h3>
@@ -79,7 +77,6 @@
                 <h4>London School of Economics and Political Science</h4>
                 <p>2.1 (64%)</p>
                 <p>Environmental Economics, Sustainable Business and Finance, Sustainable Development. </p>
-
             </div>
         </section>
         </main>
