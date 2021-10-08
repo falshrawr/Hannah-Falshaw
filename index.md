@@ -1,7 +1,6 @@
 
 <html lang="en">
 	<head>
-		<title></title>
 		<link href="Resources/styles.css" rel="stylesheet" type='text/css'>
 		<link rel='preconnect' href='https://fonts.googleapis.com'>
 		<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
@@ -20,9 +19,8 @@
 				</ul>
 			</nav>	
 		</header>
-	    <main>
+	    <h1 id='home'>Personal Portfolio</h1>
         <section class='section1'>
-            <h1 id='home'>Personal Porfolio</h1>
             <div style='float: left; text-align: left;' class="contact home"> 
                 <h1>Hannah Falshaw</h1>
                 <h2>About Me</h2>
@@ -41,6 +39,5 @@
                <li>Natural Language Processing, Sentiment Classification</li>
             </div>
         </section>
-        </main>
     </body>
 </html>        
